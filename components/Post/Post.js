@@ -17,8 +17,8 @@ export function Post({ id, title, date }) {
 
 const Container = styled.article`
   padding: 1rem;
-  border: 1px solid gray;
-  border-radius: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
 `;
 
 const Title = styled.h3`
