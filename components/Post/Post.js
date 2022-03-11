@@ -1,5 +1,5 @@
 import * as React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import Link from "next/link";
 
 export function Post({ id, title, date }) {
@@ -17,8 +17,11 @@ export function Post({ id, title, date }) {
 
 const Container = styled.article`
   padding: 1rem;
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 5px;
+  color: black;
+  background-color: lightblue;
+  margin-bottom: 20px;
 `;
 
 const Title = styled.h3`

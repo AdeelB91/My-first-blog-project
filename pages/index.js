@@ -20,9 +20,9 @@ export default function Home({ posts }) {
 }
 
 const Main = styled.main`
-  margin: 50px 100px;
-  height: 100%;
-  background-color: none;
+  margin: 25px;
+  border: solid 5px white;
+  border-radius: 10px;
 `;
 
 const Container = styled.div`

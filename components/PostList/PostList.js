@@ -1,5 +1,5 @@
 import * as React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Post } from "../Post/Post";
 
 export function PostList({ posts }) {
@@ -16,7 +16,7 @@ export function PostList({ posts }) {
 
 const List = styled.ul`
   padding: 0;
-  margin: 0;
+  margin: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
